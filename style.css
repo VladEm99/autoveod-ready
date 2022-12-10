@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+  *,
+  *:before,
+  *:after {
+      font-family: 'Josefin Sans', sans-serif;
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+input[name="inimese_lisamine"] {
+    background-image: linear-gradient(to right, rgb(241, 237, 237), rgb(255, 255, 255), rgb(241, 237, 237));
+}
+input[name="maakonna_lisamine"] {
+    background-image: linear-gradient(to right, rgb(241, 237, 237), rgb(255, 255, 255), rgb(241, 237, 237));
+}
+
+body,
+html {
+    font-size: 16px;
+}
+body {
+    font-family: Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(241, 237, 237));
+    line-height: 20px;
+    color: #333;
+}
+.container {
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header {
+    padding: 40px;
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(102, 84, 112));
+    padding: 40px 0;
+}
+.main {
+    padding: 40px 0;
+}
+
+table {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right, rgb(235, 225, 241), rgb(255, 255, 255), rgb(241, 237, 237));
+}
+table tr td,
+table tr,
+th {
+    padding: 10px 20px;
+    border: 1px solid rgb(190, 183, 183);
+}
+table thead tr th a {
+    text-decoration: none;
+}
+table tbody tr td input,
+table tbody tr td select {
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 3px;
+}
+
+.fields {
+    border-radius: 4px;
+    padding: 3px 5px 3px 5px;
+}
+.fields input {
+    margin-top: 0.5cm;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 3px;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right, rgb(235, 225, 241), rgb(255, 255, 255), rgb(241, 237, 237));
+}
+.form {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right, rgb(235, 225, 241), rgb(255, 255, 255), rgb(241, 237, 237));
+    border-radius: 3px;
+    padding: 0.5em;
+    max-width: 5cm;
+    border: 2px solid rgb(0, 0, 0);
+    margin-top: 0.5cm;
+}
+.form input {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right, rgb(224, 224,224), rgb(255, 255, 255));
+    border-radius: 3px;
+}
+.XD {
+    padding: 3px 5px 3px 5px;
+    border-radius: 3px;
+}
+form{
+    margin-top: 0.5cm;
+}
+
+
+
