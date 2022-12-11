@@ -14,7 +14,9 @@ input[name="inimese_lisamine"] {
 input[name="maakonna_lisamine"] {
     background-image: linear-gradient(to right, rgb(241, 237, 237), rgb(255, 255, 255), rgb(241, 237, 237));
 }
-
+.h2 {
+    padding-top: 0.5cm;
+}
 body,
 html {
     font-size: 16px;
@@ -97,6 +99,10 @@ table tbody tr td select {
 form{
     margin-top: 0.5cm;
 }
-
-
+h1 {
+    margin-top: 0.5cm;
+}
+.rem {
+    margin: 0.5cm 0 0 1.5cm;
+}
 

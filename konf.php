@@ -1,7 +1,10 @@
 <?php
-$baasiaadress="localhost";
-$baasikasutaja="vlad21";
-$baasiparool="12345";
-$baasinimi="vlad21";
-$yhendus=new mysqli($baasiaadress, $baasikasutaja, $baasiparool, $baasinimi);
-//PHP lõpumärki pole vaja, et kogemata midagi välja ei trükitaks
+$serverinimi="d109455.mysql.zonevs.eu"; // d70420.mysql.zonevs.eu
+$kasutaja="d109455_vlad"; // d70420_merk21
+$parool="Vlad23Mar22Vlad23Mar22"; // ''
+$andmebaas="d109455_embaas21"; //d70420_merk21
+
+$yhendus=new mysqli($serverinimi, $kasutaja, $parool, $andmebaas);
+
+$yhendus->set_charset('UTF8');
+?>

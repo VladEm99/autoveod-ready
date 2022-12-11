@@ -55,7 +55,7 @@ if (isset($_POST["algus"]) && isset($_POST["ots"]) && isset($_POST["aeg"])) {
         </tr>
         <?php
         //show data from table
-        $kask=$yhendus->prepare('SELECT algus, ots, aeg FROM veod');
+        $kask=$yhendus->prepare('SELECT algus, ots, aeg FROM veod WHERE autojuht is null AND autonr is null');
         $kask->bind_result($algus, $ots, $aeg);
         $kask->execute();
         while($kask->fetch()){

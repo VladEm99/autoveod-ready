@@ -1,17 +1,8 @@
 <?php
-$conn = new mysqli("localhost", "vlad21", "12345", "vlad21");
+$conn = new mysqli("d109455.mysql.zonevs.eu", "d109455_vlad", "Vlad23Mar22Vlad23Mar22", "d109455_embaas21");
 if($conn->connect_error){
     die("Ошибка: " . $conn->connect_error);
 }
-?>
-<!DOCTYPE html>
-<html>
-<head>
-    <title>METANIT.COM</title>
-    <meta charset="utf-8" />
-</head>
-<body>
-<?php
 // если запрос GET
 if($_SERVER["REQUEST_METHOD"] === "GET" && isset($_GET["id"]))
 {
@@ -58,5 +49,12 @@ else{
 }
 $conn->close();
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+</head>
+<body>
 </body>
 </html>
